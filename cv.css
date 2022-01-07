@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.topbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.firstTop {
+    background-color: #713cc9;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.phone {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone > span {
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.email {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email > a {
+    color: white;
+    margin-left: 11px;
+    margin-top: -3px;
+}
+
+.secondTop {
+    background-color: #4d2585;
+    width: 60%;
+}
+
+.download {
+    background-color: #713cc9;
+    border-color: transparent;
+    text-align: center;
+    margin-top: 13px;
+    margin-left: 730px;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.content {
+    display: flex;
+}
+
+.firstPart {
+    background-color: #ffffff;
+    width: 35%;
+    min-height: 92vh;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 5%;
+}
+
+.profesionalCharge {
+    color: #bebfc4; 
+    margin-top: -20px;
+}
+
+.information > strong {
+    color: #713cc9;
+}
+
+.secondPart {
+    background-color: #f8f9fb;
+    width: 60%;
+    min-height: 92vh;
+    height: auto;
+}
+
+.titleEd {
+    color: #4d2585;
+    margin-bottom: -5px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-around;
+}
+
+.education-item {
+    width: 30%;
+}
+
+.education-item > p {
+    margin-bottom: 3px;
+}
+
+/* 
+    SELECTOR :nth-of-type() SELECCIONA SOLO EL HIJO DE LA CLASE MENCIONADA
+    PASANDOLE EL # DE HIJO O POSICION Y EL TIPO DE ELEMENTO
+
+    ejemplo: "elemento":nth-of-type("numeroDeElemento")
+
+*/
+.secondPart > div:nth-of-type(1) {
+    padding: 10px 60px;
+}
+
+.titleSkill {
+    color: #4d2585;
+    display: flex;
+}
+
+.secondPart > div:nth-of-type(2) {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-container {
+    width: 36%;
+}
+
+.butt > button {
+    color: #4d2585;
+    text-decoration: none;
+    border-radius: 80px;
+    padding: 5px 10px;
+    border-color: transparent;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.professional {
+    color: #4d2585;
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+
+.job {
+    margin-left: 70px;
+}
+
+.job > h3 {
+    margin-bottom: 0px;
+}
+
+.pf2 {
+    margin-left: 70px;
+    margin-bottom: px;
+}
+
+.lastOne {
+    color: #4d2585;
+    display: flex;
+    margin-left: 70px;
+}
