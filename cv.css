@@ -43,6 +43,24 @@ body {
     margin-top: -3px;
 }
 
+.contacto {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto > a {
+    color: white;
+    margin-left: 11px;
+    margin-top: -3px;
+}
+
+.contacto > span {
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
 .secondTop {
     background-color: #4d2585;
     width: 60%;
